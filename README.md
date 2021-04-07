@@ -1,6 +1,6 @@
 # IPC-publish-subscribe
 
-#Program compilation:
+# Program compilation:
 
 In order to compile the server program use the command
 
@@ -16,7 +16,7 @@ gcc -Wall client.c -o client
 which will generate an executable file named client in the current directory.
 
 
-#Starting the program:
+# Starting the program:
 
 In order to run the program, you must first use the command
 
@@ -33,7 +33,7 @@ To run the client program use the command
 After starting the client program, the MENU of available options will be displayed in the terminal, which will guide the user.
 
 
-#A short description of the client.c file content:
+# A short description of the client.c file content:
 
 There is an option menu in the client program, in which we can choose from logging in, recipient registration, message type registration, message type broadcast, message receipt and logout.
 
